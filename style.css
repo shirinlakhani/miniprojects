@@ -1,0 +1,39 @@
+*{
+    margin: 50px;;
+    padding:2px;
+    box-sizing: border-box;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;        
+    background: rgba(5, 27, 6, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(88, 92, 143, 0.37);
+    backdrop-filter: blur( 40px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(61, 17, 119, 0.18);
+}
+#btn{
+background: rgba( 74, 144, 226, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 16.5px );
+-webkit-backdrop-filter: blur( 16.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: white;
+display: inline-block;
+font-size: 20px;
+padding: 15px;
+}
+
+#output{
+    font-family: fantasy;
+    font-size: 20px;
+    color: rgb(182, 14, 42);
+}
